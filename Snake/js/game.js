@@ -96,7 +96,6 @@ function GameFunc() {
             }
         }
     } else {
-        IsDead = true;
         alert("You have died");
         clearInterval(Game); //have to pass the interval to the clear interval func
         
